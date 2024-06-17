@@ -1,6 +1,6 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-/*html {
+html {
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -24,15 +24,58 @@
 /* STYLES */
 /* Write your CSS below */
 
+body {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
 #title {
   color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
   background-image: url("/apple-pie/images/apple-pie.jpg");
   background-size: cover;
-  font-family: "Helvetica", sans-serif;
   padding-top: 150px;
   padding-bottom: 150px;
+  
 }
 
 #text-title {
   color: black;
+  text-align: justify;
+  padding: 50px;
+  background-image: url("/apple-pie/images/recipe-info.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 300px;
 }
+#ingredients {
+  color: black;
+  text-align: justify;
+  padding: 20px 20px 20px 20px;
+  background-image: url("/apple-pie/images/cooking-info.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  font-weight: lighter;
+}
+#directions {
+  color: black;
+  text-align: justify;
+  padding: 20px 20px 20px 20px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  font-weight: lighter;
+}
+hr{
+  margin-top: 5%;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 60%;
+}
+h2 {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: medium;
+}
+
